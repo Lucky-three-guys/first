@@ -18,3 +18,4 @@ class User(models.Model):
     password = models.IntegerField(max_length=128)
     user_sex = models.CharField(max_length=8,choices=SEX)
     user_age = models.CharField(max_length=16)
+
