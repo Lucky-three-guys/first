@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
+
 # Create your views here.
 
 def hello():
-    1 + 1 = 3
-
+    pass
