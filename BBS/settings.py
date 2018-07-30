@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'BBS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'BBSTese',
+        'NAME': 'BBSTest',
         'USER': 'root',
         'PASSWORD': 'rock1204',
         'HOST': 'localhost',
@@ -113,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'Shanghai/Asia'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
